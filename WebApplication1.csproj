@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B3DB4595-3C46-4507-8587-4AFB094FC51F}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebApplication1</RootNamespace>
+    <AssemblyName>WebApplication1</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\AjouterCategorie.aspx" />
+    <Content Include="Admin\AjouterLivre.aspx" />
+    <Content Include="App_Themes\MeslivresAdmin\StyleSheet1.css" />
+    <Content Include="App_Themes\panierAdmin\StyleSheet1.css" />
+    <Content Include="Client\CatAdmin.aspx" />
+    <Content Include="Client\home1.aspx" />
+    <Content Include="Client\LivreAdmin.aspx" />
+    <Content Include="Client\LivreParCatAdmin.aspx" />
+    <Content Include="App_Themes\AddBook\StyleSheet1.css" />
+    <Content Include="App_Themes\AddTheme\StyleSheet1.css" />
+    <Content Include="App_Themes\Auth\StyleSheet1.css" />
+    <Content Include="App_Themes\catAdmin\StyleSheet1.css" />
+    <Content Include="App_Themes\Cat\StyleSheet1.css" />
+    <Content Include="App_Themes\Contact\StyleSheet1.css" />
+    <Content Include="App_Themes\homeAdmin\StyleSheet1.css" />
+    <Content Include="App_Themes\Home\StyleSheet1.css" />
+    <Content Include="App_Themes\LivreAdmin\StyleSheet1.css" />
+    <Content Include="App_Themes\LivreparcatAdmin\StyleSheet1.css" />
+    <Content Include="App_Themes\LivreParCat\StyleSheet1.css" />
+    <Content Include="App_Themes\livre\StyleSheet1.css" />
+    <Content Include="App_Themes\Mes livres\StyleSheet1.css" />
+    <Content Include="App_Themes\panier\StyleSheet1.css" />
+    <Content Include="Auth\1.js" />
+    <Content Include="Auth\Auth.aspx" />
+    <Content Include="Client\cat.aspx" />
+    <Content Include="Client\Contact.aspx" />
+    <Content Include="Client\LivreParCat.aspx" />
+    <Content Include="Client\HOME.aspx" />
+    <Content Include="Client\Livre.aspx" />
+    <Content Include="Client\Meslivres.aspx" />
+    <Content Include="Client\MeslivresAdmin.aspx" />
+    <Content Include="Client\panier.aspx" />
+    <Content Include="Client\panierAdmin.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\AjouterCategorie.aspx.cs">
+      <DependentUpon>AjouterCategorie.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AjouterCategorie.aspx.designer.cs">
+      <DependentUpon>AjouterCategorie.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AjouterLivre.aspx.cs">
+      <DependentUpon>AjouterLivre.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AjouterLivre.aspx.designer.cs">
+      <DependentUpon>AjouterLivre.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Client\CatAdmin.aspx.cs">
+      <DependentUpon>CatAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Client\CatAdmin.aspx.designer.cs">
+      <DependentUpon>CatAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Client\home1.aspx.cs">
+      <DependentUpon>home1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Client\home1.aspx.designer.cs">
+      <DependentUpon>home1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Client\LivreAdmin.aspx.cs">
+      <DependentUpon>LivreAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Client\LivreAdmin.aspx.designer.cs">
+      <DependentUpon>LivreAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Client\LivreParCatAdmin.aspx.cs">
+      <DependentUpon>LivreParCatAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Client\LivreParCatAdmin.aspx.designer.cs">
+      <DependentUpon>LivreParCatAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Auth\Auth.aspx.cs">
+      <DependentUpon>Auth.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Auth\Auth.aspx.designer.cs">
+      <DependentUpon>Auth.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Client\cat.aspx.cs">
+      <DependentUpon>cat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Client\cat.aspx.designer.cs">
+      <DependentUpon>cat.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Client\Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Client\Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Client\LivreParCat.aspx.cs">
+      <DependentUpon>LivreParCat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Client\LivreParCat.aspx.designer.cs">
+      <DependentUpon>LivreParCat.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Client\HOME.aspx.cs">
+      <DependentUpon>HOME.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Client\HOME.aspx.designer.cs">
+      <DependentUpon>HOME.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Client\Livre.aspx.cs">
+      <DependentUpon>Livre.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Client\Livre.aspx.designer.cs">
+      <DependentUpon>Livre.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Client\Meslivres.aspx.cs">
+      <DependentUpon>Meslivres.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Client\Meslivres.aspx.designer.cs">
+      <DependentUpon>Meslivres.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Client\MeslivresAdmin.aspx.cs">
+      <DependentUpon>MeslivresAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Client\MeslivresAdmin.aspx.designer.cs">
+      <DependentUpon>MeslivresAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Client\panier.aspx.cs">
+      <DependentUpon>panier.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Client\panier.aspx.designer.cs">
+      <DependentUpon>panier.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Client\panierAdmin.aspx.cs">
+      <DependentUpon>panierAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Client\panierAdmin.aspx.designer.cs">
+      <DependentUpon>panierAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MESROLES.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </Content>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Admin\photo\" />
+    <Folder Include="Client\pictures\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:6935/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

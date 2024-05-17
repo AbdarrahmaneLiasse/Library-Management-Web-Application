@@ -1,0 +1,10 @@
+C:\Users\AL\Downloads\Projet fin de formation\ASP.net\BOOKS\WebApplication1\bin\WebApplication1.dll
+C:\Users\AL\Downloads\Projet fin de formation\ASP.net\BOOKS\WebApplication1\bin\WebApplication1.pdb
+C:\Users\AL\Downloads\Projet fin de formation\ASP.net\BOOKS\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+C:\Users\AL\Downloads\Projet fin de formation\ASP.net\BOOKS\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\AL\Downloads\Projet fin de formation\ASP.net\BOOKS\WebApplication1\obj\Debug\WebApplication1.pdb
+D:\PFF\ASP.net\BOOKS\WebApplication1\bin\WebApplication1.dll
+D:\PFF\ASP.net\BOOKS\WebApplication1\bin\WebApplication1.pdb
+D:\PFF\ASP.net\BOOKS\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+D:\PFF\ASP.net\BOOKS\WebApplication1\obj\Debug\WebApplication1.dll
+D:\PFF\ASP.net\BOOKS\WebApplication1\obj\Debug\WebApplication1.pdb
