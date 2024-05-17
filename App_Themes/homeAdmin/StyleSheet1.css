@@ -1,0 +1,167 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    padding: 25px;
+}
+
+body{
+    background: linear-gradient(0.25turn, rgb(242, 245, 245), #ebf8e1, rgb(242, 245, 245));
+
+}
+.titre {
+    margin:40px;
+}
+
+footer{
+bottom: 0;
+    position:relative;
+    float:right;
+}
+
+#container{
+ height: 100%;
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background: red; */
+    padding: 0 50px;
+    text-decoration: none;
+    
+}
+
+
+
+#nav ul li a,#button .a{
+    text-decoration: none;
+    color:#3a916d ;
+    font-size: large;
+}
+
+#button .a{
+    color: #3a916d;
+    border:1px solid #3a916d;
+    padding: 10px;
+    font-weight: 500;
+}
+
+#button .a:active{
+    color: rgb(255, 255, 255);
+    border-color: #3a916d;
+    background-color: #3a916d;
+}
+
+
+#nav ul li{ 
+    display: inline-block;
+    margin:0 40px;
+}
+
+
+main{
+padding: 100px;
+
+}
+
+#recherche{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+
+#inputrecherche input:focus{
+    border-bottom: 1px solid;
+}
+
+[placeholder]:focus::-webkit-input-placeholder {
+    transition: text-indent 0.4s 0.4s ease-in-out; 
+    text-indent: -100%;
+    opacity: 1;
+ }
+
+ #inputrecherche{
+    line-height: 50px;
+    text-align: center;
+    padding: 20px;
+ }
+
+ #photomain{
+    width: 300px;
+    height: auto;
+ }
+#inputrecherche input{
+    width: 500px;;
+    height: 30px;
+    font-size: large;
+    border: none;
+    outline:none;
+    background-color: rgb(242, 245, 245);
+    background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat right;
+    background-size: 20px;
+    margin: 30px;
+    padding-top:10px; 
+}
+
+
+
+#containetListeBooks .img{
+      Width:200px;
+      Height:279px;
+}
+
+#containetListeBooks{
+    width: 900px;
+    height: auto;
+    margin:240px;
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+
+
+
+#Div1 {
+    margin-bottom:-100px;
+}
+
+.AjouterAuPanier {
+    width:200px;
+    height:40px;
+    border-radius:10px;
+    background-color:#3a916d;
+    color:white;
+    font-weight:200;
+    text-decoration:none;
+    padding:15px 35px;
+}
+
+.Afficher {
+    padding:15px;
+    border-radius:50%;
+    border:1px solid;
+    position:absolute;
+    top: -50px;
+        left: 0;
+        opacity: 1;z-index: 10;
+
+}
+
+
+.ajouterLivre {
+    padding:15px;
+    text-decoration:none;
+    font-weight:400;
+    font-size:large;
+    background-color:#3a916d;
+    color:white;
+}
